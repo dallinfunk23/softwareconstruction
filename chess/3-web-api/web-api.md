@@ -260,7 +260,7 @@ You might find it helpful to reference the course instruction topic on how to wr
 
 The provided tests for this assignment are in the StandardAPITests class. These test the server-side functionality of the API’s. To run the tests first start your server, and then run StandardAPITests.
 
-For the tests to work properly, our test classes need to know which port you are running your server on. We default to port 8080, but if you need to change this edit `TestFactory::getServerPort()` in the `passoffTests` package to return the port you are using.
+For the tests to work properly, our test classes need to know which port you are running your server on. We default to port 8080, but if you need to change this edit `testFactory.TestFactory::getServerPort()` in the `passoffTests` package to return the port you are using.
 
 ## Code Quality
 

@@ -2,10 +2,10 @@
 
 📁 [Starter code](starter-code)
 
-The Starter Code should have three folders: `libs`, `serverTests`, and `web`. Do the following:
+The Starter Code should have three folders: `libs`, `passoffTests.serverTests`, and `web`. Do the following:
 
 1. Copy the `libs` folder into your project’s root folder. The `libs` folder contains some Java libraries (i.e., JAR files) that the pass off test cases depend on.
-1. Copy the `serverTests` folder into your project’s `src/test/passoffTests` folder so it’s a sibling of `chessTests` and `TestFactory`. The `serverTests` folder contains the server test cases.
+1. Copy the `passoffTests.serverTests` folder into your project’s `src/test/passoffTests` folder so it’s a sibling of `passoffTests.chessTests` and `testFactory.TestFactory`. The `passoffTests.serverTests` folder contains the server test cases.
 1. Copy the `web` folder into your project’s root folder. The `web` folder contains the files that implement the server’s test web page. When you create your server class, you will need to specify the `web` folder’s path for static files, as shown below.
 
    ```java

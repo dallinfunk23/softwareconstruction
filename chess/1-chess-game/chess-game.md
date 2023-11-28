@@ -58,9 +58,9 @@ For this project, you are free to implement the classes above in whatever order 
 
 ## Testing
 
-For the pass off tests to be able to instantiate your classes, you will need to fill in some factory methods. In the `test` folder, go to passoffTests / TestFactory. Inside the TestFactory class are 5 methods you will need to fill in for the tests to work properly. These methods are in the `Chess Functions` section of TestFactory. Each method has a `FIXME` comment that describes what the method needs to return. The other methods in TestFactory will be used in future assignments and can be ignored for now.
+For the pass off tests to be able to instantiate your classes, you will need to fill in some factory methods. In the `test` folder, go to passoffTests / testFactory.TestFactory. Inside the testFactory.TestFactory class are 5 methods you will need to fill in for the tests to work properly. These methods are in the `Chess Functions` section of testFactory.TestFactory. Each method has a `FIXME` comment that describes what the method needs to return. The other methods in testFactory.TestFactory will be used in future assignments and can be ignored for now.
 
-The test cases for this assignment are in `passoffTests → chessTests`. `ChessPieceTests` has a collection of tests for the movement of individual pieces, ChessBoardTests has tests for adding/gettings pieces and your resetBoard method, and ChessGameTests has tests for the overall gameplay. You will need to pass all these tests to pass off this assignment.
+The test cases for this assignment are in `passoffTests → passoffTests.chessTests`. `ChessPieceTests` has a collection of tests for the movement of individual pieces, ChessBoardTests has tests for adding/gettings pieces and your resetBoard method, and ChessGameTests has tests for the overall gameplay. You will need to pass all these tests to pass off this assignment.
 
 The Tests in ChessExtraCredit are for the `Castling` and `En Passant` moves. Successfully passing these will earn you some extra credit on this assignment, but are not required for pass off.
 
