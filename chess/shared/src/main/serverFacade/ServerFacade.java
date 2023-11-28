@@ -63,8 +63,12 @@ public class ServerFacade {
             StringBuilder response = new StringBuilder();
             String responseLine;
             while ((responseLine = br.readLine()) != null) {
-                response.append(responseLine.trim());
+                response.append(responseLine).append(System.lineSeparator());
             }
+
+            // Log the response for debugging
+            System.out.println("Response received:\n" + response.toString());
+
             return response.toString();
         }
     }

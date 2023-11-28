@@ -16,7 +16,10 @@ public class RegisterResponse {
      * The error message.
      */
     private String message;
-
+    /**
+     * Indicates success
+     */
+    private boolean success;
 
     ///   Constructors   ///
 
@@ -66,4 +69,8 @@ public class RegisterResponse {
     public void setUsername(String username) {
         this.username = username;
     }
+
+    public boolean getSuccess() { return success;}
+
+    public void setSuccess(boolean success) {this.success = success;}
 }

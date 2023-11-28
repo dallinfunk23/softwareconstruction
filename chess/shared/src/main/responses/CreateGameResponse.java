@@ -15,6 +15,11 @@ public class CreateGameResponse {
      */
     private String message;
 
+    /**
+     * Check success
+     */
+    private boolean success;
+
 
     ///   Constructors   ///
 
@@ -54,4 +59,8 @@ public class CreateGameResponse {
     public void setMessage(String message) {
         this.message = message;
     }
+
+    public boolean getSuccess() { return success;}
+
+    public void setSuccess(boolean success) {this.success = success;}
 }
